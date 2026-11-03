@@ -79,7 +79,7 @@ Both CC1101 modules are powered directly from the Arduino Nano 33 BLE's onboard 
 3. Open **Tools > Manage Libraries** and install the following libraries:
    * **RadioLib** (by Jan Gromes)
    * **ArduinoBLE** (by Arduino)
-4. Open `firmware/RF_TPMS_Gateway/RF_TPMS_Gateway.ino` in the Arduino IDE.
+4. Open `RF_TPMS_Gateway.ino` in the Arduino IDE.
 5. Select **Arduino Nano 33 BLE** under **Tools > Board** and select your active COM port.
 6. Click **Upload**.
 7. *(Optional)* Open the Serial Monitor at **115200 baud** to view live hardware-level RF and BLE logs.
@@ -107,7 +107,7 @@ Both CC1101 modules are powered directly from the Arduino Nano 33 BLE's onboard 
    ```
 5. Start the server:
    ```bash
-   python server/app.py
+   python app.py
    ```
 
 ### Step 3: Launch the Web Inspector
