@@ -88,7 +88,7 @@ Both CC1101 modules are powered directly from the Arduino Nano 33 BLE's onboard 
 1. Ensure **Python 3.10+** is installed on your computer and Bluetooth is turned **ON**.
 2. Clone this repository and navigate into the project directory:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/cc1101-ble-rf-gateway.git
+   git clone https://github.com/Ritwik-Mallavarapu/433-Mhz-RF-Transmission-using-2-CC1101-and-Arduino-Nano-33-BLE.git
    cd cc1101-ble-rf-gateway
    ```
 3. Create and activate a virtual environment:
